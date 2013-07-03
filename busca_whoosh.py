@@ -5,6 +5,8 @@ import whoosh.index as index
 from whoosh.fields import Schema, TEXT, STORED
 from whoosh.qparser import QueryParser
 
+
+# gerando uma lista com a localização (path) dos arquivos a serem indexados
 def caminhotxt(path):
     archives_list = []
     saida = []
